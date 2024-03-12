@@ -23,12 +23,11 @@
           <div class="content">
                 {% block content %}{% endblock %}
           </div>
+          <span style="font-size: 20px">Våra sponsorer:</span>
           <div class="sponsors">
-            <div class="sponsor"></div>
-            <div class="sponsor"></div>
-            <div class="sponsor"></div>
-            <div class="sponsor"></div>
-            <div class="sponsor"></div>
+              {% for sponsor in sponsors %}
+                <a class="sponsor" style="background-image: url({{ sponsor.img }});" href="{{ sponsor.url }}"></a>
+              {% endfor %}
           </div>
           <div class="footer cinzel-decorative-regular">
               Gothenburg Metal Championship 2024 | Metal Capitol of the World since 199X
