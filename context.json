@@ -1,11 +1,11 @@
 {
-    "contact_url": "/contact.html",
-    "register_url": "/register.html",
-    "info_url": "/info.html",
+    "contact_url": "contact.html",
+    "register_url": "register.html",
+    "info_url": "info.html",
     "sliding_blocks": [
         {
             
-            "image": "/hugo_slide.jpg",
+            "image": "hugo_slide.jpg",
             "title": "32 Band — 11 Kvällar av metal — 1 vinnare",
             "body": [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -14,7 +14,7 @@
             "justify": "start"
        },
         {
-            "image": "/adrian_headbang.jpg",
+            "image": "adrian_headbang.jpg",
             "title": "Missa ingenting!",
             "body": [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -22,13 +22,13 @@
             ],
             "link": {
                 "posttext": "hittar du instruktioner för att följa vårt nyhetsbrev!",
-                "url": "/info.html",
+                "url": "info.html",
                 "urltext": "Här"
             },
             "justify": "end"
        },
        {
-           "image": "/rickard_bend_gray.jpg",
+           "image": "rickard_bend_gray.jpg",
            "title": "You think you got what it takes?",
            "body": [
                "Fyll i bandregistreringsformuläret för en changs att visa världens bästa metalscne att just dit band är värt att dra hem storvinsten! Kom igen, det blir kul! Men framförallt roligt.",
@@ -36,7 +36,7 @@
            ],
             "link": {
                 "text": "Känner du dig manad? Följ länken för",
-                "url": "/register.html",
+                "url": "register.html",
                 "urltext": "bandregistreringen."
             },
             "justify": "start"
