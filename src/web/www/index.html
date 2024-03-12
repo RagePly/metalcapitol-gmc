@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="index.css">
+    <div class="fader top"></div>
+    <div class="blocks">
+        {% for b in sliding_blocks %}
+        <div class="sliding-block" style="background-image: linear-gradient({% if b.justify == "start" %}to right{% else %}to left{% endif %}, var(--gmc-background) 20%, transparent), url({{ b.image }}); justify-content: {{ b.justify }};">
+                <div class="block-text">
+                    <div class="block-title">{{ b.title }}</div>
+                    <div class="block-body">
+                        {% for line in b.body %}
+                            <p>{{ line }}</p>
+                        {% endfor %}
+                        {% if b.link %}
+                            <div class="external-link">
+                                <div>{{ b.link.text }}</div>
+                                <a href="{{ b.link.url }}">{{ b.link.urltext }}</a>
+                                <div>{{ b.link.posttext }}</div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="fader bottom"></div>
+{% endblock %}
+

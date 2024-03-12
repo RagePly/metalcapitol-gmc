@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GMC</title>
+    <link rel="stylesheet" href="/layout.css">
+  </head>
+  <body>
+      <div class="container">
+          <div class="banner">
+              <div class="title cinzel-decorative-regular">
+                  <div id="title-gothenburg">Gothenburg</div>
+                  <div id="title-metal">Metal</div>
+                  <div id="title-championship">Championship 2024</div>
+              </div>
+              <div class="navbar">
+                  <a href="/"><span>Hem</span></a>
+                  <a href="{{ info_url }}"><span>För gäster</span></a>
+                  <a href="{{ register_url }}"><span>För band</span></a>
+                  <a href="{{ contact_url }}"><span>Kontakt</span></a>
+              </div>
+          </div>
+          <div class="content">
+                {% block content %}{% endblock %}
+          </div>
+          <div class="sponsors">
+            <div class="sponsor"></div>
+            <div class="sponsor"></div>
+            <div class="sponsor"></div>
+            <div class="sponsor"></div>
+            <div class="sponsor"></div>
+          </div>
+          <div class="footer cinzel-decorative-regular">
+              Gothenburg Metal Championship 2024 | Metal Capitol of the World since 199X
+          </div>
+      </div>
+  </body>
+</html>
