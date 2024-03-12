@@ -41,5 +41,28 @@
             },
             "justify": "start"
       }   
+    ],
+    "sponsors": [
+        {
+            "url": "https://theabyss.se",
+            "img": "/sponsor_abyss.png"
+        },
+        {
+            "url": "https://www.solar-guitars.com/",
+            "img": "/sponsor_solar.png"
+        },
+        {
+            "url": "https://www.facebook.com/people/Gothenburg-Metal-Temple/61554554581518/",
+            "img": "/sponsor_gmt.jpg"
+        },
+        {
+            "url": "https://studiovoid.se/",
+            "img": "/sponsor_void.svg"
+        },
+        {
+            "url": "http://www.studiofredman.com/",
+            "img": "/sponsor_fredman.jpg"
+        }
+
     ]
 }
