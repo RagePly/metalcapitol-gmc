@@ -2,3 +2,4 @@
 /contact.html
 /info.html
 /register.html
+/404.html
