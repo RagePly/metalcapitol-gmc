@@ -52,17 +52,16 @@
             "img": "/sponsor_solar.png"
         },
         {
-            "url": "https://www.facebook.com/people/Gothenburg-Metal-Temple/61554554581518/",
-            "img": "/sponsor_gmt.jpg"
+            "url": "http://www.studiofredman.com/",
+            "img": "/sponsor_fredman.jpg"
         },
         {
             "url": "https://studiovoid.se/",
             "img": "/sponsor_void.svg"
         },
         {
-            "url": "http://www.studiofredman.com/",
-            "img": "/sponsor_fredman.jpg"
+            "url": "https://www.facebook.com/people/Gothenburg-Metal-Temple/61554554581518/",
+            "img": "/sponsor_gmt.jpg"
         }
-
     ]
 }

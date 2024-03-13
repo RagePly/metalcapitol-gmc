@@ -97,10 +97,12 @@ body {
     font-size: 24px;
 }
 
-.navbar > a {
+a {
     color: inherit;
-    text-decoration: none; 
+    text-decoration: none;
+}
 
+.navbar > a {
     display: flex;
     height: 1.5em;
     width: 175px;
@@ -127,6 +129,7 @@ body {
 
 .sponsors {
     padding-top: 20px;
+    padding-bottom: 80px;
     display: flex;
 }
 
