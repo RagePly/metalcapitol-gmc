@@ -16,26 +16,12 @@
     padding-top: 140px;
     padding-bottom: 140px;
     padding-left: 40px;
+    padding-right: 40px;
 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
-    /*
-    -webkit-mask-image: linear-gradient(
-        80deg, 
-        transparent 20%, 
-        white 20% 80%,
-        transparent 80%
-    ); 
-    mask-image: linear-gradient(
-        80deg, 
-        transparent 20%, 
-        white 20% 80%,
-        transparent 80%
-    ); 
-    */
 
     display: flex;
 
@@ -46,7 +32,6 @@
 .block-text {
     width: 50%;
     min-height: 50vh;
-    margin-right: 50px;
 }
 
 .block-title {
