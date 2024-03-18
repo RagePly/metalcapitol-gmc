@@ -27,6 +27,15 @@
                                 <div>{{ b.link.posttext }}</div>
                             </div>
                         {% endif %}
+                        <p class="credits">
+                            {% for part in b.credit %}
+                                {% if part.type == "text" %}
+                                    {{ part.content }} 
+                                {% elif part.type == "link" %}
+                                    <a class="plink" href="{{ part.url }}">{{ part.urltext }}</a>
+                                {% endif %}
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
             </div>

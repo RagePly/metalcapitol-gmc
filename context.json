@@ -11,7 +11,12 @@
                 [{"type": "text", "content": "Detta år anländer för första gång Gothenburg Metal Championship till hårdrockens huvudstad." }],
                 [{"type": "text", "content": "Med 32 band och 11 kvällar av metal lovar Gothenburg Metal Championship leverera en melodifestival som hyllar gräsrotsrörelsen och vår stads metalscen. En festival där vinnaren inte bara kammar hem äran att blivit hyllad som festivalens bästa band; de kommer också vandra hem med ett skivkontrakt och möjligheten att spela in deras egna platta hos Studio Fredman med ingen mindre än Fredrik Nordström!"}]
             ],
-            "justify": "start"
+            "justify": "start",
+            "credit": [
+                {"type": "text", "content": "Bild tagen av"},
+                {"type": "link", "url": "https://www.facebook.com/FlamesPhoto", "urltext": "@FlamesPhoto"}
+            ]
+
        },
         {
             "image": "adrian_headbang.jpg",
@@ -20,15 +25,19 @@
                 [
                     {"type": "text", "content": "Med många datum och många band finns det mycket att ta del av. Till er hjälp har vi"},
                     {"type": "link", "url": "/info.html", "urltext": "denna infosida"},
-                    {"type": "text", "content":"där vi kommer publicera alla relevanta deljer som har med eventet att göra: datum, band, biljettinfo och inte minst resultaten. Där hittar ni också länkar till eventen då vi publicerat dem på facebook."}
+                    {"type": "text", "content":"där vi kommer publicera alla relevanta detaljer som har med eventet att göra: datum, band, biljettinfo och inte minst resultaten. Där hittar ni också länkar till eventen då vi publicerat dem på facebook."}
                 ],
                 [
-                    {"type": "text", "content": "Har ni yterligare frågor får ni väldigt gärna"},
+                    {"type": "text", "content": "Har ni ytterligare frågor får ni väldigt gärna"},
                     {"type": "link", "url": "/contact.html", "urltext": "kontakta oss"},
                     {"type": "text", "content": "!"}
                 ]
             ],
-            "justify": "end"
+            "justify": "end",
+            "credit": [
+                {"type": "text", "content": "Bild tagen av"},
+                {"type": "link", "url": "https://www.facebook.com/FlamesPhoto", "urltext": "@FlamesPhoto"}
+            ]
        },
        {
            "image": "rickard_bend_gray.jpg",
@@ -36,15 +45,21 @@
            "body": [
                [{"type": "text", "content": "Spelar du i ett metalband? Ansök idag om att få spela!"}],
                [
-                   {"type": "text", "content": "Vinnande band går som nämnt hem med ett besök till Studio Fredman där ingen mindre än Fredrik Nordström kommer hjälpa er spela in er nästa platta. Men detta är inte det ända man har anledning att bli taggad inför. Gothenburg Metal Championship kommer även inehålla andra tävlingar; bland andra kommer bästa gitarrist väljat ut där priset är en signaturgitarr från Solar Guitars!"}
+                   {"type": "text", "content": "Ni som vinnande band går som nämnt hem med en inbjudan till Studio Fredman där ingen mindre än Fredrik Nordström kommer hjälpa er spela in er nästa platta. Men detta är inte det ända man har anledning att bli taggad inför. Gothenburg Metal Championship kommer även innehålla andra tävlingar; bland andra kommer bästa gitarrist väljas ut där priset är en signaturgitarr från Ola Englunds Solar Guitars!"}
                ],
+               [{"type": "text", "content": "Speltider lottas ut redan den 5:e April så grumla inte för länge!"}],
                [
                    {"type": "text", "content": "Känner ni er manade? Följ länken för"},
                    {"type": "link", "url": "/register.html", "urltext": "bandregistreringen"},
                    {"type": "text", "content": "."}
                ]
            ],
-            "justify": "start"
+            "justify": "start",
+            "credit": [
+                {"type": "text", "content": "Bild tagen av"},
+                {"type": "link", "url": "https://www.facebook.com/isurujfoto", "urltext": "@isurujphoto"}
+            ]
+
       }   
     ],
     "sponsors": [
