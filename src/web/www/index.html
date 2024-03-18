@@ -10,7 +10,15 @@
                     <div class="block-title">{{ b.title }}</div>
                     <div class="block-body">
                         {% for line in b.body %}
-                            <p>{{ line }}</p>
+                            <p>
+                                {% for part in line %}
+                                    {% if part.type == "text" %}
+                                        {{ part.content }} 
+                                    {% elif part.type == "link" %}
+                                        <a class="plink" href="{{ part.url }}">{{ part.urltext }}</a>
+                                    {% endif %}
+                                {% endfor %}
+                            </p>
                         {% endfor %}
                         {% if b.link %}
                             <div class="external-link">

@@ -59,6 +59,13 @@ body {
     justify-content: space-between;
 }
 
+.banner-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .banner {
 
 }
@@ -143,5 +150,9 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.plink {
+    color: var(--gmc-lightgold);
 }
 
