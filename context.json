@@ -40,7 +40,7 @@
                ],
                [
                    {"type": "text", "content": "Känner ni er manade? Följ länken för"},
-                   {"type": "link", "url": "/registration.html", "urltext": "bandregistreringen"},
+                   {"type": "link", "url": "/register.html", "urltext": "bandregistreringen"},
                    {"type": "text", "content": "."}
                ]
            ],
