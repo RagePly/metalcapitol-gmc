@@ -57,7 +57,7 @@
             "justify": "start",
             "credit": [
                 {"type": "text", "content": "Bild tagen av"},
-                {"type": "link", "url": "https://www.facebook.com/isurujfoto", "urltext": "@isurujphoto"}
+                {"type": "link", "url": "https://www.facebook.com/isurujfoto", "urltext": "@isurujfoto"}
             ]
 
       }   
