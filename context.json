@@ -11,11 +11,7 @@
                 [{"type": "text", "content": "Detta år anländer för första gång Gothenburg Metal Championship till hårdrockens huvudstad." }],
                 [{"type": "text", "content": "Med 32 band och 11 kvällar av metal lovar Gothenburg Metal Championship leverera en melodifestival som hyllar gräsrotsrörelsen och vår stads metalscen. En festival där vinnaren inte bara kammar hem äran att blivit hyllad som festivalens bästa band; de kommer också vandra hem med ett skivkontrakt och möjligheten att spela in deras egna platta hos Studio Fredman med ingen mindre än Fredrik Nordström!"}]
             ],
-            "justify": "start",
-            "credit": [
-                {"type": "text", "content": "Bild tagen av"},
-                {"type": "link", "url": "https://www.facebook.com/FlamesPhoto", "urltext": "@FlamesPhoto"}
-            ]
+            "justify": "start"
 
        },
         {
@@ -33,11 +29,7 @@
                     {"type": "text", "content": "!"}
                 ]
             ],
-            "justify": "end",
-            "credit": [
-                {"type": "text", "content": "Bild tagen av"},
-                {"type": "link", "url": "https://www.facebook.com/FlamesPhoto", "urltext": "@FlamesPhoto"}
-            ]
+            "justify": "end"
        },
        {
            "image": "rickard_bend_gray.jpg",
@@ -54,12 +46,7 @@
                    {"type": "text", "content": "."}
                ]
            ],
-            "justify": "start",
-            "credit": [
-                {"type": "text", "content": "Bild tagen av"},
-                {"type": "link", "url": "https://www.facebook.com/isurujfoto", "urltext": "@isurujfoto"}
-            ]
-
+            "justify": "start"
       }   
     ],
     "sponsors": [
